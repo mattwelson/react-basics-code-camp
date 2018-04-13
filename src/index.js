@@ -4,7 +4,8 @@ import Counter from "./Counter";
 
 const styles = {
   fontFamily: "sans-serif",
-  textAlign: "center"
+  textAlign: "center",
+  padding: "2em"
 };
 
 const App = () => (

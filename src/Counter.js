@@ -4,7 +4,15 @@ class Counter extends React.Component {
   state = { count: 0 };
 
   render() {
-    return <h1>Coming from Counter.js</h1>;
+    return (
+      <div className="box">
+        <h1 className="title">Counter</h1>
+        <div className="tags has-addons" style={{justifyContent:'center'}}>
+        <span className="tag is-info">{this.state.count}</span>
+        <span className="tag">++</span>
+        </div>
+      </div>
+    );
   }
 }
 
