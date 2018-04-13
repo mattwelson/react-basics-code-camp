@@ -5,12 +5,9 @@ class Counter extends React.Component {
 
   render() {
     return (
-      <div className="box">
-        <h1 className="title">Counter</h1>
-        <div className="tags has-addons" style={{justifyContent:'center'}}>
+      <div className="tags has-addons" style={{ justifyContent: "center" }}>
         <span className="tag is-info">{this.state.count}</span>
         <span className="tag">++</span>
-        </div>
       </div>
     );
   }

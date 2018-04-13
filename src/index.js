@@ -5,11 +5,12 @@ import Counter from "./Counter";
 const styles = {
   fontFamily: "sans-serif",
   textAlign: "center",
-  padding: "2em"
+  margin: "2em"
 };
 
 const App = () => (
-  <div style={styles}>
+  <div style={styles} className="box">
+    <h1 className="title">Counters</h1>
     <Counter />
   </div>
 );
