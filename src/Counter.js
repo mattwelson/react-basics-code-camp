@@ -4,12 +4,7 @@ class Counter extends React.Component {
   state = { count: 0 };
 
   render() {
-    return (
-      <div>
-        Count: {this.state.count}
-        <button>+</button>
-      </div>
-    );
+    return <h1>Coming from Counter.js</h1>;
   }
 }
 

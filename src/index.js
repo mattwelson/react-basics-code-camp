@@ -1,16 +1,16 @@
-import React from 'react';
-import { render } from 'react-dom';
-import Counter from './Counter';
+import React from "react";
+import { render } from "react-dom";
+import Counter from "./Counter";
 
 const styles = {
-  fontFamily: 'sans-serif',
-  textAlign: 'center',
+  fontFamily: "sans-serif",
+  textAlign: "center"
 };
 
 const App = () => (
   <div style={styles}>
-    <Counter/>
+    <Counter />
   </div>
 );
 
-render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById("root"));
