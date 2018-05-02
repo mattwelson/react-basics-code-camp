@@ -12,8 +12,6 @@ const App = () => (
   <div style={styles} className="box">
     <h1 className="title">Counters</h1>
     <Counter />
-    <Counter />
-    <Counter />
   </div>
 );
 
