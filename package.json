@@ -1,12 +1,13 @@
 {
-  "name": "state-starter",
+  "name": "elevated-state-starter-sliders",
   "version": "1.0.0",
-  "description": "Part 2 of my learn react starter",
+  "description": "Part 4 of my learn react starter",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "react": "16.2.0",
     "react-dom": "16.2.0",
+    "react-rangeslider": "2.2.0",
     "react-scripts": "1.1.0"
   },
   "devDependencies": {},

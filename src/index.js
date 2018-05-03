@@ -1,6 +1,10 @@
 import React from "react";
 import { render } from "react-dom";
-import Counter from "./Counter";
+import ColourContainer from "./ColourContainer";
+import {
+  rgb,
+  hsl
+} from './helpers'
 
 const styles = {
   fontFamily: "sans-serif",
@@ -10,8 +14,9 @@ const styles = {
 
 const App = () => (
   <div style={styles} className="box">
-    <h1 className="title">Counters</h1>
-    <Counter />
+    <h1 className="title">Colours</h1>
+    <ColourContainer {...rgb} />
+    <ColourContainer {...hsl} />
   </div>
 );
 
